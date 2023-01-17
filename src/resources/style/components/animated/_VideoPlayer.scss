@@ -1,0 +1,13 @@
+.VideoPlayer {
+    margin: 5vh 0 0 0;
+
+    video {
+        max-height: 80vh;
+        max-width: 80vw;
+        -webkit-border-radius: 2.5vh;
+        -moz-border-radius: 2.5vh;
+        -ms-border-radius: 2.5vh;
+        -o-border-radius: 2.5vh;
+        border-radius: 2.5vh;
+    }
+}

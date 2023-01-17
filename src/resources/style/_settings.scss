@@ -1,0 +1,36 @@
+$blue: #8FBDD3;
+$red: #A97155;
+$beige: #E4D1B9;
+$brown: #BE8C63;
+
+
+html,
+body,
+p,
+li,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+div,
+span,
+img,
+video,
+a {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter";
+}
+
+html, body {
+    background-color: $beige;
+    width: 100vw;
+    margin: 0 auto 0 auto;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}

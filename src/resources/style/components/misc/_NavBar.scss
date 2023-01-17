@@ -1,0 +1,47 @@
+.NavBar {
+    position: fixed;
+    height: 50vh;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 25vh 0 25vh 1vw;
+    z-index: 1;
+    -webkit-border-radius: 5vh;
+    -moz-border-radius: 5vh;
+    -ms-border-radius: 5vh;
+    -o-border-radius: 5vh;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $blue;
+    padding: 0 1vw 0 1vw;
+    border: 5px solid $red;
+    font-size: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+
+    a {
+        color: black;
+        text-decoration: none;
+
+        .NavBarLink {
+            background-color: $red;
+            padding: 1vh;
+            -webkit-border-radius: 2.5vh;
+            -moz-border-radius: 2.5vh;
+            -ms-border-radius: 2.5vh;
+            -o-border-radius: 2.5vh;
+            border-radius: 2.5vh;
+            color: $beige;
+            border: 5px solid $beige;
+        }
+    }
+}
+
+.NavBar:hover {
+    font-size: 0.8vw;
+}

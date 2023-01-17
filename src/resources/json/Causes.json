@@ -1,0 +1,43 @@
+[
+    {
+        "id": "HumanActivities",
+        "title": "Activités Humaines et Augmentation des Températures",
+        "description": "Les activités humaines, telles que la production d'énergie, le chauffage, l'industrie du ciment, les transports, l'élevage ou l'urbanisation occasionnent une diminution de l'albédo et une augmentation de l'effet de serre : les températures vont à la hausse.",
+        "videoLink": "7ciSOVKWbwg",
+        "linkedTo": ["RisingWaterTemperature", "PureWaterResources"]
+    },
+    {
+        "id": "GulfStreamSlowDown",
+        "title": "Ralentissement du Gulf Stream",
+        "description": "La circulation thermohaline dont fait partie le Gulf Stream pourrait ralentir à cause de l’apport en eau douce de la fonte du Groenland. Cela aurait pour effet de déréguler encore plus le cycle de l’eau et de réduire la capacité de l’océan à absorber du carbone et de la chaleur.",
+        "videoLink": "g69KxsNxQaQ",
+        "linkedTo": ["RisingWaterTemperature"]
+    },
+    {
+        "id": "RisingWaterTemperature",
+        "title": "Hausse de la Température de l'Eau",
+        "description": "L’océan absorbe 91% de l’énergie qui s’accumule sur la Terre.",
+        "videoLink": "8nzRXxPnlPQ",
+        "linkedTo": ["RisingWaters", "Hurricanes"]
+    },
+    {
+        "id": "RisingWaters",
+        "title": "Montée des Eaux",
+        "description": "En se réchauffant, les eaux se dilatent et le niveau des océans augmente (de 15.6cm de hauteur pour une augmentation de température de 0.6°C).",
+        "videoLink": "PjSkijQFHDs",
+        "linkedTo": [
+            "Floods",
+            "OceansSalinityModification"
+        ]
+    },
+    {
+        "id": "PureWaterResources",
+        "title": "Ressources en Eau Douce",
+        "description": "Les ressources en eau douce sont affectées par les changements de précipitation et la disparition des glaciers qui jouent un rôle régulateur du débit des cours d’eau.",
+        "videoLink": "9IEUGeb7gpM",
+        "linkedTo": [
+            "OceansSalinityModification",
+            "GulfStreamSlowDown"
+        ]
+    }
+]

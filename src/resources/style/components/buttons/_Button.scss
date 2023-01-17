@@ -1,0 +1,39 @@
+.Button {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    border: 5px solid $red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    padding: 1vh;
+    -webkit-border-radius: 2.5vh;
+    -moz-border-radius: 2.5vh;
+    -ms-border-radius: 2.5vh;
+    -o-border-radius: 2.5vh;
+    border-radius: 2.5vh;
+    font-size: 0.9vw;
+    transition-property: all;
+    transition-duration: 0.5s;
+    font-weight: bolder;
+    color: $red;
+    background-color: $blue;
+
+    p {
+        text-align: center;
+    }
+
+    img {
+        max-height: 5vh;
+        max-width: 2vw;
+        margin: 0 0.5vw 0 0.5vw;
+    }
+}
+
+.Button:hover {
+    color: transparent;
+    font-size: 0;
+}

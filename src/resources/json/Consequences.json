@@ -1,0 +1,59 @@
+[
+    {
+        "id": "Biodiversity",
+        "title": "Biodiversité",
+        "description": "Animaux et plantes, aussi bien terrestres que maritimes, sont affectés par les changements de température et du cycle de l’eau : ils se déplacent ou disparaissent (ou plus rarement : ils prolifèrent ex : moustiques).",
+        "videoLink": "zEW3_QzXbCI",
+        "linkedTo": []
+    },
+    {
+        "id": "HeatWaves",
+        "title": "Canicules",
+        "description": "Certaines canicules récentes auraient été extrêmement improbables sans le réchauffement d’origine anthropique en cours.",
+        "videoLink": "sDIgRbJBpXc",
+        "linkedTo": [
+            "Droughts",
+            "MicroclimatesImpact",
+            "Biodiversity"
+        ]
+    },
+    {
+        "id": "Droughts",
+        "title": "Sécheresses",
+        "description": "La perturbation du cycle de l’eau peut amener plus ou moins d’eau. Moins d’eau, c’est une sécheresse. On estime ainsi que les sécheresses pourraient se multiplier à l'avenir de par les facteurs précédemment évoqués mais aussi car les sols perdent leur capacité à absorber l'eau en se desséchant.",
+        "videoLink": "iNuR4Opzlos",
+        "linkedTo": ["Floods", "MicroclimatesImpact", "Biodiversity"]
+    },
+    {
+        "id": "Floods",
+        "title": "Crues",
+        "description": "Due à la perturbation du cycle de l’eau qui amène plus ou moins d’eau qui engendre des crues : inondations dans les terres sauf qu’avec l’urbanisation (création de routes) et là où les sols ont étés durcis par une sécheresse, c’est pire, car l’eau ruisselle.",
+        "videoLink": "vm5YnHCVawk",
+        "linkedTo": ["Biodiversity"]
+    },
+    {
+        "id": "OceansSalinityModification",
+        "title": "Modification de la Salinité des Océans",
+        "description": "La dilatation des eaux et la fonte des glaces modifie la salinité des océans, or 97.2% de l'eau sur Terre est salée. Cela impacte également l'acidité des océans, leur capacité à absorber le carbone, les courants, et bien sûr, les êtres vivants associés.",
+        "videoLink": "AGrAbFIPYEE",
+        "linkedTo": [
+            "RisingWaterTemperature",
+            "MicroclimatesImpact",
+            "Biodiversity"
+        ]
+    },
+    {
+        "id": "Hurricanes",
+        "title": "Cyclones",
+        "description": "Les cyclones s'alimentent de l’énergie des eaux chaudes à la surface de l’océan. Leur puissance a augmenté à cause du changement climatique.",
+        "videoLink": "xDOXD7eJB2s",
+        "linkedTo": ["Biodiversity"]
+    },
+    {
+        "id": "MicroclimatesImpact",
+        "title": "Impact sur les Microclimats",
+        "description": "C'est le cycle de l'eau qui régule les microclimats : en perturbant le premier, on dérègle le second qui lui-même constitue les fondations du climat global : c'est un effet boule de neige.",
+        "videoLink": "PzWhnudcIhA",
+        "linkedTo": []
+    }
+]

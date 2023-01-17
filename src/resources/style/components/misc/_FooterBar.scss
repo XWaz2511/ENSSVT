@@ -1,0 +1,28 @@
+.FooterBar {
+    background-color: $red;
+    -webkit-border-radius: 3vh;
+    -moz-border-radius: 3vh;
+    -ms-border-radius: 3vh;
+    -o-border-radius: 3vh;
+    border-radius: 3vh;
+    width: 90vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2.5vw 0 2.5vw;
+    margin: 10vh auto 2.5vh auto;
+
+    .FooterBarCase {
+        a {
+            color: whitesmoke;
+            font-weight: bolder;
+            font-size: 1vw;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    }
+}

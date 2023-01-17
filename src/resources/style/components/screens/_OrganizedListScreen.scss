@@ -1,0 +1,40 @@
+#OrganizedListScreen {
+    ol {
+        width: 90vw;
+        min-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        li {
+            width: -moz-fit-content;
+            width: fit-content;
+            background-color: $red;
+            color: whitesmoke;
+            padding: 1.5vw;
+            -webkit-border-radius: 2vh;
+            -moz-border-radius: 2vh;
+            -ms-border-radius: 2vh;
+            -o-border-radius: 2vh;
+            border-radius: 2vh;
+            margin: 2.5vh 0 2.5vh 3vw;
+
+            .liTitle {
+                font-size: 0.975vw;
+                font-weight: bolder;
+                text-decoration: underline;
+            }
+
+            .liContent {
+                font-size: 0.9vw;
+            }
+        }
+
+        li::marker {
+            color: $red;
+            font-size: 1.25vw;
+            font-weight: bolder;
+        }
+    }
+}

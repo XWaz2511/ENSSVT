@@ -1,0 +1,16 @@
+#GraphScreen {
+    .DraggableBox {
+        background-color: $red;
+        padding: 2.5vh;
+        width: -moz-fit-content;
+        width: fit-content;
+        color: whitesmoke;
+        font-weight: bolder;
+        -webkit-border-radius: 1vh;
+        -moz-border-radius: 1vh;
+        -ms-border-radius: 1vh;
+        -o-border-radius: 1vh;
+        border-radius: 1vh;
+        cursor: move;
+}    
+}

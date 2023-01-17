@@ -1,0 +1,76 @@
+#Carousel {
+    width: 90vw;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    overflow-x: auto;
+
+    .CarouselWrapper {
+        display: flex;
+        flex-direction: row;
+        width: -moz-fit-content;
+        width: fit-content;
+        align-items: flex-start;
+        margin: 0 0 5vh 0;
+
+        .CarouselCase {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 80vw;
+            margin-right: 10vw;
+    
+            .CarouselCaseText {
+                width: 30vw;
+                height: -moz-fit-content;
+                height: fit-content;
+                max-height: 44vh;
+                overflow-y: auto;
+                background-color: $red;
+                color: whitesmoke;
+                -webkit-border-radius: 2.5vh;
+                -moz-border-radius: 2.5vh;
+                -ms-border-radius: 2.5vh;
+                -o-border-radius: 2.5vh;
+                border-radius: 2.5vh;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 4vh 2.5vw 4vh 2.5vw;
+
+                .CarouselCaseTextTitle, .CarouselCaseTextContent {
+                    h2, p {
+                        text-align: center;
+                    }
+                }
+
+                .CarouselCaseTextTitle {
+                    margin-bottom: 1vh;
+
+                    h2 {
+                        font-size: 1.5vw;
+                    }
+                }
+
+                .CarouselCaseTextContent {
+                    margin-top: 1vh;
+
+                    p {
+                        font-size: 0.875vw;
+                    }
+                }
+}
+    
+            iframe {
+                width: 35vw;
+                height: 50vh;
+                -webkit-border-radius: 2.5vh;
+                -moz-border-radius: 2.5vh;
+                -ms-border-radius: 2.5vh;
+                -o-border-radius: 2.5vh;
+                border-radius: 2.5vh;
+            }
+        }
+    }
+}
